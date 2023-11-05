@@ -1,0 +1,9 @@
+$ttl 3600
+myzone.	IN	SOA	server-pc.myzone.com. jony.mizona.com. (
+			2023110401
+			3600
+			600
+			1209600
+			3600 )
+myzone.	IN	NS	server-pc.myzone.com.
+pc1.myzone.	IN	A	127.0.0.1
